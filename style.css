@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.download-buttons {
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.download-ios {
+    background-color: #ff5e5e;
+}
+
+.download-android {
+    background-color: #ff3b3b;
+}
+
+.app-image {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.feature {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.feature img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #007bff;
+}
