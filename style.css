@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; /* Normal */
+    font-style: normal; /* Regular */   
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px ;
+    font-weight: 700; /* Normal */
+    font-style: normal; /* Regular */   
+    
+}
+.navbar img {
+    height: 50px; /* Ajusta la altura de la imagen según tus necesidades */
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar li {
+    position: relative;
+    margin-left: 20px;
+}
+.navbar a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+.button-normal{
+    
+    color: rgb(60, 60, 60);
+}
+.button-normal:hover {
+    color: #FF556E;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    box-shadow: 7px 4px 4px rgb(196, 195, 195);
+    min-width: 150px;
+    z-index: 1;
+    border-bottom: 1px black solid;
+}
+.dropdown-item{
+    
+    color: rgb(60, 60, 60);
+    border-bottom: 1px rgb(158, 158, 158) solid;
+}
+.dropdown-item:hover{
+    
+    color: #FF556E;
+}
+.download-button{
+    border: 2px #FF556E solid;
+    color: #FF556E;
+    border-radius: 120px;
+}
+.download-button:hover{
+    border: 2px #FF556E solid;
+    background-color:#FF556E;
+    color: white;
+    border-radius: 120px;
+}
+.dropdown a {
+    padding: 10px;
+}
+.navbar li:hover .dropdown {
+    display: block;
+}
+.main-text{
+    padding-top: 1%;
+    text-align: center ;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+.title-text{
+    font-size: 300%;
+    margin-bottom: 0px;
+}
+.p-text{
+    
+    color: rgb(60, 60, 60);
+}
+
+.button-container {
+    display: flex; /* Activa el modo flexbox */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    margin: 20px 0; /* Espaciado superior e inferior, opcional */
+}
+
+.download-button-main {
+    background-color: #FF556E;
+    color: white;
+    border-radius: 120px;
+    text-decoration: none;
+    padding: 5px 20px; /* Añade un poco de padding lateral */
+    margin: 0 10px; /* Espaciado horizontal entre los botones */
+}
