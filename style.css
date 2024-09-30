@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -11,11 +10,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .contenedor {
     display: flex;
-    width: 80%;
+    width: 100%;
     max-width: 1200px;
+    background-color: #f7fafd;
+    padding: 70px 70px 70px 70px ;
 }
 
 .img-izq {
@@ -62,3 +64,100 @@ body {
     border-radius: 25px;
     padding: 10px 30px 10px 30px;
 }
+
+/* Segunda parte del codigo */
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #e8eff6;
+    padding: 70px 70px 70px 70px ;
+}
+
+.left-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #e6e7eb;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tab.active {
+    background-color: #a968f1;
+    color: white;
+}
+
+.content h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.content ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.content ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.terms-button, .privacy-button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.terms-button {
+    background-color: #ff5a5f;
+}
+
+.privacy-button {
+    background-color: #333;
+}
+
