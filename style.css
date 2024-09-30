@@ -1,79 +1,107 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext);
 
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f8f9fa;
-    color: #333;
-}
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; /* Normal */
+    font-style: normal; /* Regular */   
 
-header {
-    padding: 20px;
 }
-
-h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-
-.download-buttons {
-    margin: 20px 0;
-}
-
-.btn {
-    padding: 10px 20px;
-    font-size: 18px;
-    margin: 0 10px;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
-}
-
-.download-ios {
-    background-color: #ff5e5e;
-}
-
-.download-android {
-    background-color: #ff3b3b;
-}
-
-.app-image {
-    width: 300px;
-    margin-top: 20px;
-}
-
-.features {
+.navbar {
     display: flex;
-    justify-content: center;
-    margin: 40px 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px ;
+    font-weight: 700; /* Normal */
+    font-style: normal; /* Regular */   
+    
+}
+.navbar img {
+    height: 50px; /* Ajusta la altura de la imagen según tus necesidades */
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar li {
+    position: relative;
+    margin-left: 20px;
+}
+.navbar a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+.button-normal{
+    
+    color: rgb(60, 60, 60);
+}
+.button-normal:hover {
+    color: #FF556E;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    box-shadow: 7px 4px 4px rgb(196, 195, 195);
+    min-width: 150px;
+    z-index: 1;
+    border-bottom: 1px black solid;
+}
+.dropdown-item{
+    
+    color: rgb(60, 60, 60);
+    border-bottom: 1px rgb(158, 158, 158) solid;
+}
+.dropdown-item:hover{
+    
+    color: #FF556E;
+}
+.download-button{
+    border: 2px #FF556E solid;
+    color: #FF556E;
+    border-radius: 120px;
+}
+.download-button:hover{
+    border: 2px #FF556E solid;
+    background-color:#FF556E;
+    color: white;
+    border-radius: 120px;
+}
+.dropdown a {
+    padding: 10px;
+}
+.navbar li:hover .dropdown {
+    display: block;
+}
+.main-text{
+    padding-top: 1%;
+    text-align: center ;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+.title-text{
+    font-size: 300%;
+    margin-bottom: 0px;
+}
+.p-text{
+    
+    color: rgb(60, 60, 60);
 }
 
-.feature {
-    margin: 0 20px;
-    text-align: center;
+.button-container {
+    display: flex; /* Activa el modo flexbox */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    margin: 20px 0; /* Espaciado superior e inferior, opcional */
 }
 
-.feature img {
-    width: 60px;
-    margin-bottom: 10px;
-}
-
-h3 {
-    font-size: 16px;
-}
-
-footer {
-    margin-top: 40px;
-    font-size: 18px;
-    color: #007bff;
+.download-button-main {
+    background-color: #FF556E;
+    color: rgb(255, 255, 255);
+    border-radius: 130px;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px 20px; /* Añade un poco de padding lateral */
+    margin: 0 3px; /* Espaciado horizontal entre los botones */
 }
