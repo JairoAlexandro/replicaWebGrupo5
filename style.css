@@ -34,10 +34,31 @@ body {
 .texto-dere {
     flex: 1;
     padding: 20px;
+    
 }
 
 .texto-dere h1 {
     font-size: 2.5rem;
     color: #333;
     margin-bottom: 20px;
+}
+
+.texto-dere p, ul {
+    color: grey;
+    margin-bottom: 40px;
+}
+
+.texto-dere li {
+    list-style: square;
+   
+}
+
+.texto-dere a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(230, 82, 82);
+    border-radius: 25px;
+    padding: 10px 30px 10px 30px;
 }
