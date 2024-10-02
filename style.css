@@ -67,6 +67,7 @@ body {
     background-color:#FF556E;
     color: white;
     border-radius: 120px;
+    transition: 0.5s;
 }
 .dropdown a {
     padding: 10px;
