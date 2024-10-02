@@ -64,6 +64,13 @@ body {
     border-radius: 25px;
     padding: 10px 30px 10px 30px;
 }
+.texto-dere a:hover {
+    
+    color: rgb(230, 82, 82);
+    background-color: rgba(255, 255, 255, 0.707);
+    transition-duration: 0.5s;
+   
+}
 
 /* Segunda parte del codigo */
 
@@ -100,18 +107,19 @@ body {
 }
 
 .tab {
-    padding: 10px 20px;
+    padding: 7px 30px;
+    color: white;
     border: none;
-    border-radius: 8px;
     font-size: 1rem;
-    background-color: #e6e7eb;
+    background-color: #a968f1;
     cursor: pointer;
     font-weight: bold;
 }
 
-.tab.active {
-    background-color: #a968f1;
-    color: white;
+.tab:hover {
+    background-color: #e6e7eb;
+    color: #333;
+    transition-duration: 0.5s;
 }
 
 .content h2 {
@@ -145,19 +153,36 @@ body {
     gap: 10px;
 }
 
-.terms-button, .privacy-button {
+.terms-button {
     padding: 10px 20px;
     border-radius: 30px;
     text-decoration: none;
     font-weight: bold;
     color: white;
-}
-
-.terms-button {
     background-color: #ff5a5f;
 }
 
+.terms-button:hover {
+    background-color: white;
+    color: #ff5a5f;
+    transition: 0.5s;
+}
+
 .privacy-button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
     background-color: #333;
+    color: white;
+}
+
+.privacy-button:hover {
+    background-color: white;
+    color: #333;
+    transition: 0.5s;
+}
+#tick{
+    color: #19ca94;
 }
 
